@@ -21,6 +21,7 @@ import Camiseta8 from "./Img/camiseta-8.jpg";
 
 
 
+
 const Container = styled.div`
   
   background-position: 50% 0;
@@ -43,7 +44,6 @@ const Select = styled.select`
   margin-top: 2vh;
   margin-right: 2vh;
   font-size: 18px;
-
 `
 
 const ContainerProdutos = styled.div`
@@ -56,9 +56,7 @@ const ContainerProdutos = styled.div`
   align-items: center;
   background-color: #ffff;
   color: black;
-  
-
-`
+  `
 
 const Produto = styled.div`
   display: flex;
@@ -67,8 +65,6 @@ const Produto = styled.div`
   padding: 5px;
   border-radius: 10px;
   border:1px solid black;
-
- 
 `
 
 const AreaProdutos = styled.div`
@@ -114,7 +110,6 @@ const Botao = styled.button`
     background-color: #9999;
     color: black;
     cursor: pointer;
-
   }
 `
 
@@ -127,29 +122,51 @@ const CarrinhoCompras = styled.div`
   height: 97vh;
   width: 25vw;
   background-color: white;
-
 `
+
+const Rodape = styled.footer`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    position: absolute;
+    margin-bottom: -1100px;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    padding: 0px;
+`;
+
+const TextoRodape = styled.h4`
+  margin-left: 20px;
+`;
 
 const produtos = [
   {
     id: 1,
     name: "Camiseta1",
     value: 35.0,
-    imageUrl: Camiseta1,
+    imageUrl: camisa1,
+
   },
 
   {
     id: 2,
     name: "Camiseta2",
     value: 40.0,
-    imageUrl: Camiseta2,
+    imageUrl: camisa2,
+
   },
 
   {
     id: 3,
     name: "Camiseta3",
     value: 45.0,
-    imageUrl: Camiseta3,
+    imageUrl: camisa3,
+
   },
 
   {
@@ -309,8 +326,7 @@ class App extends React.Component {
           nomeProduto={produtoNoCarrinho.nome}
           valorProduto={produtoNoCarrinho.valor}
           quantidade={produtoNoCarrinho.quantidade}
-          excluir={() => this.excluirProduto(produtoNoCarrinho.id)}
-          
+          excluir={() => this.excluirProduto(produtoNoCarrinho.id)}      
 
         />
       );
