@@ -1,19 +1,19 @@
 import React from "react";
+import styled from 'styled-components';
 
-import Filtros from "./components/Filtros.js";
-import Produtos from "./components/Produtos.js";
-import Carrinho from "./components/Carrinho.js";
-import styled from "styled-components";
-import camisa1 from  "./Img/camisa1.jpeg"
-import camisa2 from "./Img/camisa2.jpeg"
-import camisa3 from "./Img/camisa3.jpeg"
-import camisa4 from "./Img/camisa4.jpg"
-import camisa5 from "./Img/camisa5.jpg"
-import camisa6 from "./Img/camisa6.jpg"
-import camisa7 from "./Img/camisa7.jpg"
-import camisa8 from "./Img/camisa8.jpg"
+import Filtros from "./components/Filtro";
+import Produtos from "./components/Produtos";
+import Carrinho from "./components/Carrinho";
+import camisa1 from  "./Img/img1.jpg"
+import camisa2 from "./Img/img2.jpg"
+import camisa3 from "./Img/img3.jpg"
+import camisa4 from "./Img/img4.jpg"
+import camisa5 from "./Img/img5.jpg"
+import camisa6 from "./Img/img6.jpg"
+import camisa7 from "./Img/img7.jpg"
+import camisa8 from "./Img/img8.jpg"
 
-import imgCabecalho from "./Img/astro1.jpeg"
+import imgCabecalho from "./Img/logo1.jpg"
 
 const Container = styled.div`
   background-color: white;
