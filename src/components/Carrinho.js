@@ -4,7 +4,6 @@ import Produtos from './Produtos';
 
 const Container = styled.div`
   background-image:white;
-  
   flex-wrap:nowrap;
 
 

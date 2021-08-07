@@ -9,7 +9,7 @@ const Container = styled.div`
   height: 97vh;
   width: 25vw;
   background-color: white;
-  margin-top: 7.4vw;
+  margin-top: 10.4vw;
 `;
 
 const Input = styled.input`
