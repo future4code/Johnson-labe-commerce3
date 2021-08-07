@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Produtos from './Produtos';
 
 const Container = styled.div`
   background-image:white;
@@ -33,7 +34,8 @@ class Carrinho extends React.Component {
         return (
             <Container>
                 <ListaProdutos>
-                    {this.props.quantidade} {this.props.nomeProduto}: {this.props.valorProduto * this.props.quantidade} 
+                    {this.props.quantidade} {this.props.nomeProduto}: {this.props.valorProduto * this.props.quantidade}
+                    
                     <BotaoExcluir onClick={this.props.excluir}>EXCLUIR
                         </BotaoExcluir>            
 
