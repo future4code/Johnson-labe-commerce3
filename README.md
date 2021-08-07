@@ -51,7 +51,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## 🌎 Como acessar o projeto
 
-- [Link do surge](/http://naughty-growth.surge.sh/)
+- [Link do surge](http://naughty-growth.surge.sh/)
 
 
 ## 🚀 Desenvolvimento
