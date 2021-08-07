@@ -1,15 +1,19 @@
 import React from "react";
-import styled from 'styled-components';
+import styled from "styled-components";
+
+
+
 
 const Container = styled.div`
-  margin: 1vw;
-  padding-left: 2vw;
+  margin: 10px;
+  padding:50px;
+  
   display: flex;
   flex-direction: column;
-  height: 97vh;
+  height: 50vh;
   width: 25vw;
   background-color: white;
-  margin-top: 7.4vw;
+
 `;
 
 const Input = styled.input`

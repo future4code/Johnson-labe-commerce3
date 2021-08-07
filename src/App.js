@@ -1,19 +1,25 @@
 import React from "react";
+
+import Filtros from "./components/Filtros.js";
+import Produtos from "./components/Produtos.js";
+import Carrinho from "./components/Carrinho.js";
 import styled from 'styled-components';
 
-import Filtros from "./components/Filtro";
-import Produtos from "./components/Produtos";
-import Carrinho from "./components/Carrinho";
-import camisa1 from  "./Img/img1.jpg"
-import camisa2 from "./Img/img2.jpg"
-import camisa3 from "./Img/img3.jpg"
-import camisa4 from "./Img/img4.jpg"
-import camisa5 from "./Img/img5.jpg"
-import camisa6 from "./Img/img6.jpg"
-import camisa7 from "./Img/img7.jpg"
-import camisa8 from "./Img/img8.jpg"
+import Camiseta1 from "./Img/camiseta-1.jpg";
+import Camiseta2 from "./Img/camiseta-2.jpg";
+import Camiseta3 from "./Img/camiseta-3.jpg";
+import Camiseta4 from "./Img/camiseta-4.jpg";
+import Camiseta5 from "./Img/camiseta-5.jpg";
+import Camiseta6 from "./Img/camiseta-6.jpg";
+import Camiseta7 from "./Img/camiseta-7.jpg";
+import Camiseta8 from "./Img/camiseta-8.jpg";
 
-import imgCabecalho from "./Img/logo1.jpg"
+
+
+
+
+
+
 
 
 const Container = styled.div`
@@ -50,8 +56,7 @@ const ContainerProdutos = styled.div`
   align-items: center;
   background-color: #ffff;
   color: black;
-  
-`
+  `
 
 const Produto = styled.div`
   display: flex;
@@ -60,7 +65,6 @@ const Produto = styled.div`
   padding: 5px;
   border-radius: 10px;
   border:1px solid black;
- 
 `
 
 const AreaProdutos = styled.div`
@@ -146,6 +150,7 @@ const produtos = [
     name: "Camiseta1",
     value: 35.0,
     imageUrl: camisa1,
+
   },
 
   {
@@ -153,6 +158,7 @@ const produtos = [
     name: "Camiseta2",
     value: 40.0,
     imageUrl: camisa2,
+
   },
 
   {
@@ -160,6 +166,7 @@ const produtos = [
     name: "Camiseta3",
     value: 45.0,
     imageUrl: camisa3,
+
   },
 
   {
@@ -320,6 +327,7 @@ class App extends React.Component {
           valorProduto={produtoNoCarrinho.valor}
           quantidade={produtoNoCarrinho.quantidade}
           excluir={() => this.excluirProduto(produtoNoCarrinho.id)}      
+
         />
       );
     });
