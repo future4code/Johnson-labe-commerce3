@@ -1,41 +1,52 @@
-import React from "react";
+import React from 'react';
 import styled from 'styled-components';
+import Produtos from './Produtos';
 
 const Container = styled.div`
-  /* background-color: gray; */
+  background-image:white;
+  
+  flex-wrap:nowrap;
 
-`;
+
+`
 
 const ListaProdutos = styled.p`
-    list-style: none;
-    /* background-color: gray; */
-`;
+   
+    background-image: white;
+  
+  
+`
 
 const BotaoExcluir = styled.button`
-    margin-left: 5px;
-    font-size: 14px;
-    &:hover {
-    background-color: gray;
-    color: white;
-    }
-`;
+    width: 100px;
+    margin-left: 10px;
+    display: inline-block;
+    align-content: flex-end;
+    align-items:center;
+    flex-shrink: 1;
+    
+`
 
-const Lixeira = styled.img`
-    width: 20px;
-    height: 20px;
-`;
+
 
 class Carrinho extends React.Component {
     render () {
         return (
             <Container>
                 <ListaProdutos>
-                    {this.props.quantidade}x {this.props.nomeProduto}: {this.props.valorProduto * this.props.quantidade} 
-                    <BotaoExcluir onClick={this.props.excluir}>❌</BotaoExcluir>
+                    {this.props.quantidade} {this.props.nomeProduto}: {this.props.valorProduto * this.props.quantidade}
+                    
+                    <BotaoExcluir onClick={this.props.excluir}>EXCLUIR
+                        </BotaoExcluir>            
+
+                        
+                               
+                                           
+                   
                 </ListaProdutos>
             </Container>
         )
     }
 }
-
-export default Carrinho
+export default Carrinho;
+    

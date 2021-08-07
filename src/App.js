@@ -1,57 +1,75 @@
 import React from "react";
+
+import Filtros from "./components/Filtros.js";
+import Produtos from "./components/Produtos.js";
+import Carrinho from "./components/Carrinho.js";
 import styled from 'styled-components';
 
-import Filtros from "./components/Filtro";
-import Produtos from "./components/Produtos";
-import Carrinho from "./components/Carrinho";
-import camisa1 from  "./Img/img1.jpg"
-import camisa2 from "./Img/img2.jpg"
-import camisa3 from "./Img/img3.jpg"
-import camisa4 from "./Img/img4.jpg"
-import camisa5 from "./Img/img5.jpg"
-import camisa6 from "./Img/img6.jpg"
-import camisa7 from "./Img/img7.jpg"
-import camisa8 from "./Img/img8.jpg"
+import Camiseta1 from "./Img/camiseta-1.jpg";
+import Camiseta2 from "./Img/camiseta-2.jpg";
+import Camiseta3 from "./Img/camiseta-3.jpg";
+import Camiseta4 from "./Img/camiseta-4.jpg";
+import Camiseta5 from "./Img/camiseta-5.jpg";
+import Camiseta6 from "./Img/camiseta-6.jpg";
+import Camiseta7 from "./Img/camiseta-7.jpg";
+import Camiseta8 from "./Img/camiseta-8.jpg";
 
-import imgCabecalho from "./Img/logo1.jpg"
+
+
+
+
+
+
 
 const Container = styled.div`
-  background-color: white;
+  
   background-position: 50% 0;
   display: flex;
-`;
+  width: 100%;
+  height:100vh;
+  background-color: white;
+`
+
 const Header = styled.div`
   display: flex;
-  align-items: center;
   justify-content: space-between;
   background-color: white;
-  color: black;
+  color: #fff;
   font-size: 18px;
-`;
+`
+
 const Select = styled.select`
   height: 70%;
   margin-top: 2vh;
   margin-right: 2vh;
   font-size: 18px;
 
-`;
+`
+
 const ContainerProdutos = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 2fr);
   grid-column-gap: 1vw;
   grid-row-gap: 1vh;
   justify-items: center;
   align-items: center;
-  background-color: white;
+  background-color: #ffff;
   color: black;
+  
 
-`;
+`
+
 const Produto = styled.div`
   display: flex;
+  text-align: center;
   flex-direction: column;
   padding: 5px;
-`;
+  border-radius: 10px;
+  border:1px solid black;
+
+ 
+`
 
 const AreaProdutos = styled.div`
     background-color: white;
@@ -88,70 +106,50 @@ const Botao = styled.button`
     width: 100%;
     height: 40px;
     line-height: 40px;
-    font-size: 18px;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 10px;
+  background-color: black;
+  &:hover {
+    background-color: #9999;
     color: black;
-    border-radius: 10px;
-    background-color: white;
-    &:hover {
-    background-color: gray;
-    color: white;
     cursor: pointer;
 
   }
-`;
+`
 
 const CarrinhoCompras = styled.div`
   margin: 1vw;
   margin-top: 7.4vw;
-  padding-left: 2vw;
+  padding-left: 2vw;  
   display: flex;
   flex-direction: column;
   height: 97vh;
   width: 25vw;
   background-color: white;
 
-`;
-
-const Rodape = styled.footer`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: black;
-    color: white;
-    position: absolute;
-    margin-bottom: -1100px;
-    bottom: 0;
-    left: 0;
-    height: 100px;
-    width: 100%;
-    display: flex;
-    padding: 0px;
-`;
-
-const TextoRodape = styled.h4`
-  margin-left: 20px;
-`;
+`
 
 const produtos = [
   {
     id: 1,
-    name: "Camiseta Interestelar",
-    value: 15.0,
-    imageUrl: camisa1,
+    name: "Camiseta1",
+    value: 35.0,
+    imageUrl: Camiseta1,
   },
 
   {
     id: 2,
-    name: "Camiseta Astro planetas",
-    value: 18.0,
-    imageUrl: camisa2,
+    name: "Camiseta2",
+    value: 40.0,
+    imageUrl: Camiseta2,
   },
 
   {
     id: 3,
-    name: "Camiseta Astro balões",
-    value: 20.0,
-    imageUrl: camisa3,
+    name: "Camiseta3",
+    value: 45.0,
+    imageUrl: Camiseta3,
   },
 
   {
@@ -231,7 +229,7 @@ class App extends React.Component {
     }
     if (this.state.buscarProduto !== "") {
       produtosFiltrados = produtosFiltrados.filter((produto) => {
-        return produto.name.includes(this.state.buscarProduto);
+        return produto.name.toLowerCase().includes(this.state.buscarProduto.toLowerCase());
       });
     }
     return produtosFiltrados;
@@ -312,6 +310,8 @@ class App extends React.Component {
           valorProduto={produtoNoCarrinho.valor}
           quantidade={produtoNoCarrinho.quantidade}
           excluir={() => this.excluirProduto(produtoNoCarrinho.id)}
+          
+
         />
       );
     });
