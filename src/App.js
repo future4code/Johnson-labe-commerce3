@@ -71,7 +71,36 @@ const Produto = styled.div`
  
 `
 
+const AreaProdutos = styled.div`
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    box-shadow: 2px 2px 5px darkgray;
+    text-align: center;
+    `;
 
+const Cabecalho = styled.header`
+  display: flex;
+  flex-direction: column;
+  /* width: 30vw;
+  height: 18vw; */
+`;
+
+const ImagemCabecalho = styled.img`
+  display: flex;
+  margin-left: 9.30vw;;
+  justify-items: center;
+  align-items: center;
+  height: 204px;
+`;
+
+const Quantidade = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`
 
 const Botao = styled.button`
     width: 100%;
@@ -90,9 +119,9 @@ const Botao = styled.button`
 `
 
 const CarrinhoCompras = styled.div`
-  margin: 40px;
-  padding-left: 2vw;
-  
+  margin: 1vw;
+  margin-top: 7.4vw;
+  padding-left: 2vw;  
   display: flex;
   flex-direction: column;
   height: 97vh;
@@ -125,37 +154,37 @@ const produtos = [
 
   {
     id: 4,
-    name: "Camiseta4",
-    value: 50.0,
-    imageUrl: Camiseta4,
+    name: "Camiseta Astro na Lua",
+    value: 45.0,
+    imageUrl: camisa4,
   },
 
   {
     id: 5,
-    name: "Camiseta5",
-    value: 60.0,
-    imageUrl: Camiseta5,
+    name: "Moletom Branco",
+    value: 125.0,
+    imageUrl: camisa5,
   },
 
   {
     id: 6,
-    name: "Camiseta6",
-    value: 65.0,
-    imageUrl: Camiseta6,
+    name: "Moletom Espaço",
+    value: 150.0,
+    imageUrl: camisa6,
   },
 
   {
     id: 7,
-    name: "Camiseta7",
-    value: 70.0,
-    imageUrl: Camiseta7,
+    name: "Moletom NASA",
+    value: 200.0,
+    imageUrl: camisa7,
   },
 
   {
     id: 8,
-    name: "Camiseta8",
-    value: 80.0,
-    imageUrl: Camiseta8,
+    name: "Camiseta Astro com Balões",
+    value: 68.0,
+    imageUrl: camisa8,
   },
 ];
 
@@ -254,6 +283,7 @@ class App extends React.Component {
 
     const listaProdutos = listaOrdenada.map((produto) => {
       return (
+        <AreaProdutos>
         <Produto>
           <Produtos
             key={produto.id}
@@ -269,6 +299,7 @@ class App extends React.Component {
             Adicionar ao carrinho
           </Botao>
         </Produto>
+        </AreaProdutos>
       );
     });
 
@@ -294,6 +325,11 @@ class App extends React.Component {
         />
         <div>
           <Header>
+          <Cabecalho>
+          <ImagemCabecalho src={imgCabecalho} alt={"Cabeçalho"}/>
+        </Cabecalho>            
+          </Header>
+          <Quantidade>
             <p>Quantidade de Produtos : {listaProdutos.length}</p>
             <Select
               value={this.state.ordenacao}
@@ -302,7 +338,7 @@ class App extends React.Component {
               <option value="crescente"> Preço: Crescente </option>
               <option value="decrescente"> Preço: Decrescente </option>
             </Select>
-          </Header>
+          </Quantidade>
           <ContainerProdutos> {listaProdutos} </ContainerProdutos>
         </div>
         <CarrinhoCompras>
@@ -317,6 +353,11 @@ class App extends React.Component {
             )}
           </p>
         </CarrinhoCompras>
+
+        <Rodape>
+          <p class="text">©️ 2021 All rights reserved.</p>
+          <TextoRodape>Desenvolvido pelos estudantes Turma Johnson: Alexandre, Ingrid e Helany 🖤</TextoRodape>
+        </Rodape>
       </Container>
     );
   }
