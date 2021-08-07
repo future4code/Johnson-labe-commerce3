@@ -1,6 +1,6 @@
 import React from "react";
 
-import Filtros from "./components/Filtros.js";
+import Filtros from "./components/Filtro.js";
 import Produtos from "./components/Produtos.js";
 import Carrinho from "./components/Carrinho.js";
 import styled from 'styled-components';
@@ -15,10 +15,7 @@ import Camiseta7 from "./Img/camiseta-7.jpg";
 import Camiseta8 from "./Img/camiseta-8.jpg";
 
 
-
-
-
-
+import imgCabecalho from "./Img/logo.png"
 
 
 
@@ -27,8 +24,9 @@ const Container = styled.div`
   background-position: 50% 0;
   display: flex;
   width: 100%;
-  height:100vh;
+  height:50vh;
   background-color: white;
+  margin-bottom: -50vw;
 `
 
 const Header = styled.div`
@@ -64,8 +62,7 @@ const Produto = styled.div`
   flex-direction: column;
   padding: 5px;
   border-radius: 10px;
-  border:1px solid black;
-`
+  `
 
 const AreaProdutos = styled.div`
     background-color: white;
@@ -80,13 +77,14 @@ const AreaProdutos = styled.div`
 const Cabecalho = styled.header`
   display: flex;
   flex-direction: column;
+  margin-left: 6.50vw;
   /* width: 30vw;
   height: 18vw; */
 `;
 
 const ImagemCabecalho = styled.img`
   display: flex;
-  margin-left: 9.30vw;;
+  margin-left: 14vw;;
   justify-items: center;
   align-items: center;
   height: 204px;
@@ -115,7 +113,7 @@ const Botao = styled.button`
 
 const CarrinhoCompras = styled.div`
   margin: 1vw;
-  margin-top: 7.4vw;
+  margin-top: 10.4vw;
   padding-left: 2vw;  
   display: flex;
   flex-direction: column;
@@ -131,12 +129,11 @@ const Rodape = styled.footer`
     background-color: black;
     color: white;
     position: absolute;
-    margin-bottom: -1100px;
+    margin-bottom: -688px;
     bottom: 0;
     left: 0;
     height: 100px;
     width: 100%;
-    display: flex;
     padding: 0px;
 `;
 
@@ -147,61 +144,61 @@ const TextoRodape = styled.h4`
 const produtos = [
   {
     id: 1,
-    name: "Camiseta1",
+    name: "Espace",
     value: 35.0,
-    imageUrl: camisa1,
+    imageUrl: Camiseta1,
 
   },
 
   {
     id: 2,
-    name: "Camiseta2",
+    name: "Balão Vermelho",
     value: 40.0,
-    imageUrl: camisa2,
+    imageUrl: Camiseta2,
 
   },
 
   {
     id: 3,
-    name: "Camiseta3",
+    name: "Balão Amarelo",
     value: 45.0,
-    imageUrl: camisa3,
+    imageUrl: Camiseta3,
 
   },
 
   {
     id: 4,
-    name: "Camiseta Astro na Lua",
+    name: "Astro na Lua",
     value: 45.0,
-    imageUrl: camisa4,
+    imageUrl: Camiseta4,
   },
 
   {
     id: 5,
-    name: "Moletom Branco",
-    value: 125.0,
-    imageUrl: camisa5,
+    name: "Space Travel",
+    value: 85.0,
+    imageUrl: Camiseta5,
   },
 
   {
     id: 6,
-    name: "Moletom Espaço",
+    name: "Astronauta",
     value: 150.0,
-    imageUrl: camisa6,
+    imageUrl: Camiseta6,
   },
 
   {
     id: 7,
-    name: "Moletom NASA",
-    value: 200.0,
-    imageUrl: camisa7,
+    name: "NASA",
+    value: 98.0,
+    imageUrl: Camiseta7,
   },
 
   {
     id: 8,
-    name: "Camiseta Astro com Balões",
+    name: "Surf no Espaço",
     value: 68.0,
-    imageUrl: camisa8,
+    imageUrl: Camiseta8,
   },
 ];
 
