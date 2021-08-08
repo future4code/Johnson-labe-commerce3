@@ -37,7 +37,7 @@ O projeto deverá conter 3 partes:
 
 ## 🌎 Como acessar o projeto
 
-[Link do surge](http://naughty-growth.surge.sh/)
+- [Link do surge](http://naughty-growth.surge.sh/)
 
 
 ##  👨‍💻️  Tecnologias Utilizadas
