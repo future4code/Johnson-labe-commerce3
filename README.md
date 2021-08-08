@@ -23,7 +23,7 @@ O projeto deverá conter 3 partes:
 - Mostrando todos os produtos
 - Deve haver alguma forma de ordenar os produtos por ordem crescente ou decrescente de preço (pode ser na home em si ou junto dos filtros);
 
-**Produtos:**
+**Produtos**
 - Devem ter um botão que permita adicioná-los ao carrinho;
 - Devem exibir o nome, preço e imagem em um card;
 
