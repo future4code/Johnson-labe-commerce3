@@ -47,25 +47,20 @@ o projeto foi desenvolvido com as seguintes tecnologias:
 -   [React.js](https://pt-br.reactjs.org/docs/getting-started.html)
 -   [Styled-Components](https://styled-components.com/docs)
 
-## 💾  Como baixar o projeto
+## 💾 Como baixar o projeto
 
--   Primeiro instale o  [Git](https://git-scm.com/),  [Node.jS](https://nodejs.org/pt-br/download/)  +  [npm](https://www.npmjs.com/get-npm)
-
+- Primeiro instale o [Git](https://git-scm.com/), [Node.jS](https://nodejs.org/pt-br/download/) + [npm](https://www.npmjs.com/get-npm)
+```bash
 # Clonar o repositório
-- git clone https://github.com/future4code/Johnson-labe-commerce3.git
+git clone https://github.com/future4code/Johnson-labe-commerce3.git
 
 # Entrar no diretório
-- cd labe-commerce
-
+cd labe-commerce
 
 # Instalar as dependências
-- npm install
-
+npm install
 
 # Rodar o projeto
-- npm run start
-
-
----
-
-Desenvolvido com 🧡 por Alexandre, Ingrid e Helany  🤝
+npm run start
+```
+Desenvolvido com 💙 por Alexandre e Ingrid 🤝
