@@ -1,6 +1,5 @@
+
 #  🛒️ LabEcommerce
-
-
 
 ---
 
@@ -14,9 +13,9 @@
 
 ## 🖋 Descrição do projeto
 
-A proposta do  **LabEcommerce**  da  [Labenu](https://labenu.com.br/)  é desenvolver uma aplicação que simule um e-commerce, usando ReactJS com JS
+O Projeto **LabEcommerce** foi passado aos alunos do Bootcamp da Escola de Programação Labenu para simular uma proposta de trabalho a ser cumprida em grupo e para treinar as habilidades adquiridas em React.js: Manipulações de Array no Estado, Props e Componentes.
 
-O projeto consistirá em 3 grandes partes:
+O projeto deverá conter 3 partes:
 
 **Home**
 Mostrando todos os produtos;
@@ -69,7 +68,7 @@ o projeto foi desenvolvido usando as seguintes tecnologias:
 git clone https://github.com/future4code/Johnson-labe-commerce3.git
 
 # Entrar no diretório
-cd 
+cd labe-commerce
 
 
 # Instalar as dependências
