@@ -42,7 +42,7 @@ O projeto deverá conter 3 partes:
 
 ##  👨‍💻️  Tecnologias Utilizadas
 
-- o projeto foi desenvolvido com as seguintes tecnologias:
+- O projeto foi desenvolvido com as seguintes tecnologias:
 
 -   [React.js](https://pt-br.reactjs.org/docs/getting-started.html)
 -   [Styled-Components](https://styled-components.com/docs)
