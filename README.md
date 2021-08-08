@@ -1,7 +1,5 @@
 #  🛒️ LabEcommerce
 
----
-
 # Índice
 
 - [Descrição](#-descrição-do-projeto)
