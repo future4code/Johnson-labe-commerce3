@@ -42,14 +42,14 @@ O projeto deverá conter 3 partes:
 
 ##  👨‍💻️  Tecnologias Utilizadas
 
-- O projeto foi desenvolvido com as seguintes tecnologias:
+O projeto foi desenvolvido com as seguintes tecnologias:
 
 [React.js](https://pt-br.reactjs.org/docs/getting-started.html)
 [Styled-Components](https://styled-components.com/docs)
 
 ## 💾 Como baixar o projeto
 
-- Primeiro instale o [Git](https://git-scm.com/), [Node.jS](https://nodejs.org/pt-br/download/) + [npm](https://www.npmjs.com/get-npm)
+Primeiro instale o [Git](https://git-scm.com/), [Node.jS](https://nodejs.org/pt-br/download/) + [npm](https://www.npmjs.com/get-npm)
 ```bash
 # Clonar o repositório
 git clone https://github.com/future4code/Johnson-labe-commerce3.git
