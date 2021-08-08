@@ -44,8 +44,8 @@ O projeto deverá conter 3 partes:
 
 O projeto foi desenvolvido com as seguintes tecnologias:
 
-[React.js](https://pt-br.reactjs.org/docs/getting-started.html)
-[Styled-Components](https://styled-components.com/docs)
+-[React.js](https://pt-br.reactjs.org/docs/getting-started.html)
+-[Styled-Components](https://styled-components.com/docs)
 
 ## 💾 Como baixar o projeto
 
