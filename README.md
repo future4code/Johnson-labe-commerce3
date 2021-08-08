@@ -33,18 +33,6 @@ O projeto deverá conter 3 partes:
 - Por valor mínimo e máximo;
 - Por nome do produto
 
-
----
-
-##  👨‍💻️  Tecnologias Utilizadas
-
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
-
--   [ReactJS](https://reactjs.org/)
-
-
-
-
 ---
 
 ## 🌎 Como acessar o projeto
@@ -52,9 +40,9 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [Link do surge](http://naughty-growth.surge.sh/)
 
 
-## 🚀 Desenvolvimento
+##  👨‍💻️  Tecnologias Utilizadas
 
-o projeto foi desenvolvido usando as seguintes tecnologias:
+o projeto foi desenvolvido com as seguintes tecnologias:
 
 -   [React.js](https://pt-br.reactjs.org/docs/getting-started.html)
 -   [Styled-Components](https://styled-components.com/docs)
