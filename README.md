@@ -55,15 +55,15 @@ o projeto foi desenvolvido com as seguintes tecnologias:
 git clone https://github.com/future4code/Johnson-labe-commerce3.git
 
 # Entrar no diretório
-cd labe-commerce
+- cd labe-commerce
 
 
 # Instalar as dependências
-npm install
+- npm install
 
 
 # Rodar o projeto
-npm run start
+- npm run start
 
 
 ---
