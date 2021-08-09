@@ -9,7 +9,8 @@ https://user-images.githubusercontent.com/71138743/128637460-bd3c8ec2-ed55-4e55-
 
 - [Descrição](#-descrição-do-projeto)
 - [Como acessar o projeto](#-como-acessar-o-projeto)
-- [Desenvolvimento](#-desenvolvimento)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Como baixar o projeto](#-como-baixar-o-projeto)
 
 ---
 
