@@ -46,7 +46,7 @@ Um e-commerce que deverá conter 3 partes:
 
 ## 👨‍💻️ Tecnologias utilizadas
 
-O projeto foi desenvolvido com as seguintes tecnologias:
+o projeto foi desenvolvido usando as seguintes tecnologias:
 
 - [React.js](https://pt-br.reactjs.org/docs/getting-started.html)
 - [Styled-Components](https://styled-components.com/docs)
