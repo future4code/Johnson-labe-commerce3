@@ -5,17 +5,17 @@ import Produtos from "./components/Produtos.js";
 import Carrinho from "./components/Carrinho.js";
 import styled from 'styled-components';
 
-import Camiseta1 from "./Img/camiseta-1.jpg";
-import Camiseta2 from "./Img/camiseta-2.jpg";
-import Camiseta3 from "./Img/camiseta-3.jpg";
-import Camiseta4 from "./Img/camiseta-4.jpg";
-import Camiseta5 from "./Img/camiseta-5.jpg";
-import Camiseta6 from "./Img/camiseta-6.jpg";
-import Camiseta7 from "./Img/camiseta-7.jpg";
-import Camiseta8 from "./Img/camiseta-8.jpg";
+import Camiseta1 from "./img/camiseta-1.jpg";
+import Camiseta2 from "./img/camiseta-2.jpg";
+import Camiseta3 from "./img/camiseta-3.jpg";
+import Camiseta4 from "./img/camiseta-4.jpg";
+import Camiseta5 from "./img/camiseta-5.jpg";
+import Camiseta6 from "./img/camiseta-6.jpg";
+import Camiseta7 from "./img/camiseta-7.jpg";
+import Camiseta8 from "./img/camiseta-8.jpg";
 
 
-import imgCabecalho from "./Img/logo.png"
+import imgCabecalho from "./img/logo.png"
 
 
 
