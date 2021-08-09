@@ -44,9 +44,9 @@ Um e-commerce que deverá conter 3 partes:
 - [Link do surge](http://naughty-growth.surge.sh/)
 
 
-## 👨‍💻️ Tecnologias utilizadas
+## 🚀 Tecnologias utilizadas
 
-o projeto foi desenvolvido usando as seguintes tecnologias:
+O projeto foi desenvolvido usando as seguintes tecnologias:
 
 - [React.js](https://pt-br.reactjs.org/docs/getting-started.html)
 - [Styled-Components](https://styled-components.com/docs)
