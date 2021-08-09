@@ -9,7 +9,7 @@ https://user-images.githubusercontent.com/71138743/128637460-bd3c8ec2-ed55-4e55-
 
 - [Descrição](#-descrição-do-projeto)
 - [Como acessar o projeto](#-como-acessar-o-projeto)
-- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [Como baixar o projeto](#-como-baixar-o-projeto)
 
 ---
@@ -44,7 +44,7 @@ Um e-commerce que deverá conter 3 partes:
 - [Link do surge](http://naughty-growth.surge.sh/)
 
 
-## 👨‍💻️ Tecnologias Utilizadas
+## 👨‍💻️ Tecnologias utilizadas
 
 O projeto foi desenvolvido com as seguintes tecnologias:
 
