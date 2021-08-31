@@ -1,5 +1,7 @@
 #  🛒️ LabEcommerce
 
+O Projeto **LabEcommerce** foi passado aos alunos do Bootcamp da Escola de Programação Labenu para simular uma proposta de trabalho a ser cumprida em grupo e para treinar as habilidades adquiridas em React.js: Manipulações de Array no Estado, Props e Componentes.
+
 https://user-images.githubusercontent.com/71138743/128637460-bd3c8ec2-ed55-4e55-9330-3b0fa558c054.mp4
 
 ---
@@ -15,8 +17,6 @@ https://user-images.githubusercontent.com/71138743/128637460-bd3c8ec2-ed55-4e55-
 ---
 
 ## 🖋 Descrição do projeto
-
-O Projeto **LabEcommerce** foi passado aos alunos do Bootcamp da Escola de Programação Labenu para simular uma proposta de trabalho a ser cumprida em grupo e para treinar as habilidades adquiridas em React.js: Manipulações de Array no Estado, Props e Componentes.
 
 Um e-commerce que deverá conter 3 partes:
 
